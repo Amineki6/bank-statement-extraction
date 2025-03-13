@@ -1,0 +1,5 @@
+{
+    "DEPLOYMENT_NAME":"gpt-4o",
+    "OPENAI_API_BASE":"https://advanced-methods-of-ai.openai.azure.com/",
+    "OPENAI_API_VERSION":"2024-05-01-preview"
+}

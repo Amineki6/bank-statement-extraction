@@ -1,0 +1,6 @@
+loguru
+openai
+langchain
+langchain-community
+langchain-core
+pdf2image

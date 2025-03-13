@@ -1,0 +1,6 @@
+.idea/
+docs/
+venv/
+.gitignore
+*.log
+*.db

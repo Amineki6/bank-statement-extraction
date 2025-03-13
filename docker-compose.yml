@@ -1,0 +1,17 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    volumes:
+      # PDF Source and Target dirs
+      - ./source/:/app/source
+      - ./dest/:/app/dest
+      # Dir for failed pdfs
+      - ./failed/:/app/failed
+      # Pre-Processed image dir (failed images only)
+      - ./image/:/app/image
+      # Export data directory - csv and db files
+      - ./export/:/app/export
